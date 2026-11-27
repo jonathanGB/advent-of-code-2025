@@ -8,7 +8,7 @@ pub struct Args {
     pub day: Day,
 }
 
-seq!(N in 1..=12 {
+seq!(N in 01..=12 {
     #[derive(Subcommand, Debug)]
     pub enum Day {
         #(
